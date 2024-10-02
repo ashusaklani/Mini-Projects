@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    height: 1000px;
+}
+
+.outer-container {
+    width: 400px;
+    height: 600px;
+    border: 2px dotted #333;
+    margin: 5rem 5rem;
+    background-color: skyblue;
+}
+
+.inner-container {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 8rem 6rem;
+    position: relative;
+    background-color: lightgreen;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.absolute {
+    background: red;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.relative {
+    background: red;
+    top: 0;
+    left: 98px;
+    position: relative;
+}
+
+.fixed {
+    background: red;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.sticky {
+    background: red;
+    top: 100px;
+    left: 0;
+    position: sticky;
+}
